@@ -7,6 +7,8 @@ class Backer
     @backed_projects = []
   end
   
+  
+  
   def self.all()
     return @@all
   end
