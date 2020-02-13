@@ -1,6 +1,6 @@
 class Project
   @@all = []
-  attr_accessor(:name)
+  attr_reader(:name)
   
   def initialize(project_name)
     @name = project_name
